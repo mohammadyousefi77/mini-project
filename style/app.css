@@ -1,0 +1,116 @@
+@font-face {
+    font-family: "shabnam";
+    src: url("../fonts/Shabnam-FD.woff2") format("woff2");
+}
+@font-face {
+    font-family: "shabnam-b";
+    src: url("../fonts/Shabnam-FD.woff2") format("woff2");
+    font-weight:800;
+}
+*{
+    font-family: "shabnam","shabnam-b";
+    box-sizing: border-box;
+    
+}
+body{
+    background-color: #fafafa;
+}
+.container{
+    width: 1216px;
+   
+    margin-left: auto;
+    margin-right: auto;
+    /* border: 2px solid red; */
+    
+    
+    
+}
+.header-box{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin-bottom: 10px;
+    margin-left:10px;
+  margin-right: 10px;
+}
+.header-box-child{
+    display: flex;
+    align-items: center;
+    gap: 12px;
+    
+}
+.icon {
+    /* display: inline-block; */
+    width: 16.3px;
+    height: 13.45px;
+    color: rgb(12, 122, 152); 
+     
+     
+}
+a{
+text-decoration: none;
+color: #304FFE;
+font-weight: 570;
+}
+span{
+    display: inline-block;
+}
+.m-b1-child{
+    background-color: #fff;
+    padding: 10px;
+
+}
+.main-box1 {
+    display: flex;
+    align-items: center;
+    gap: 12px;
+  margin-bottom:10px;
+  margin-left:10px;
+  margin-right: 10px;
+}
+/* .main-box > div{
+    width:50px;
+} */
+img{
+    
+    width: 100%;
+}
+.box1{
+    
+    display: flex;
+    gap: 15px;
+
+   
+    
+}
+.box1-ch2{
+    text-decoration: line-through;
+}
+.box1-ch1{
+    border-top-left-radius: 5px;
+    background-color: #E1F5FE ;
+    color: #2962FF;
+    font-weight: bold;
+}
+.box2{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.icon-star{
+    width: 20px;
+    height: 15px;
+    color: rgb(239, 235, 7); 
+    margin-left: 10px; 
+}
+.box2-div1 ,.box2-div2{
+    display: flex;
+   
+    gap: 5px;
+}
+.box2-p1{
+font-weight: bold;
+}
+
+
+
